@@ -33,3 +33,14 @@
 @media(max-width:760px){.certificate-grid{grid-template-columns:1fr}.certificate-card{padding:24px}}
 
 .contact-bottom .contact-phone-row{margin:18px 0 0}.contact-phone{display:inline-flex;align-items:center;gap:12px;min-height:44px;font:700 19px/1.5 Manrope,Arial,sans-serif;border-bottom:1px solid #405c35}.contact-phone:hover{color:#334c28}
+
+.dashboard-evidence{margin-top:58px;padding-top:38px;border-top:1px solid var(--line)}
+.evidence-heading h3{font:800 clamp(25px,3vw,38px)/1.25 Manrope,Arial,sans-serif;letter-spacing:-.045em;margin:0 0 14px}
+.evidence-heading p{font-size:14px;line-height:1.8;color:#aeb8b0;margin:0 0 26px}
+.evidence-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.evidence-grid figure{margin:0;min-width:0;border:1px solid var(--line);background:var(--bg2)}
+.evidence-grid figure>a{display:block}.evidence-grid img{display:block;width:100%;height:auto}
+.evidence-grid figcaption{display:flex;align-items:flex-start;flex-direction:column;gap:12px;padding:22px}
+.evidence-grid figcaption>span{font:800 10px/1.5 Manrope,Arial,sans-serif;letter-spacing:.1em;color:var(--acid)}
+.evidence-grid figcaption>strong{font:700 19px/1.4 Manrope,Arial,sans-serif}.evidence-grid .text-link{margin-top:4px}
+@media(max-width:760px){.evidence-grid{grid-template-columns:1fr}}
