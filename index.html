@@ -140,7 +140,12 @@
   </main>
   <dialog class="evidence-lightbox" id="evidence-lightbox" aria-labelledby="evidence-lightbox-caption">
     <div class="lightbox-toolbar"><span id="evidence-lightbox-caption">Campaign image</span><button type="button" id="close-evidence-lightbox" aria-label="Close image viewer">Close ×</button></div>
-    <img id="evidence-lightbox-image" alt="">
+    <div class="lightbox-stage" id="evidence-lightbox-stage">
+      <button class="lightbox-arrow lightbox-previous" id="evidence-lightbox-previous" type="button" aria-label="Previous image" hidden>‹</button>
+      <img id="evidence-lightbox-image" alt="">
+      <button class="lightbox-arrow lightbox-next" id="evidence-lightbox-next" type="button" aria-label="Next image" hidden>›</button>
+    </div>
+    <div class="lightbox-progress"><span id="evidence-lightbox-counter" role="status" aria-live="polite" aria-atomic="true"></span><span id="evidence-lightbox-hint">Swipe or use ← →</span></div>
     <a class="lightbox-original" id="evidence-lightbox-original" target="_blank" rel="noopener">Open original image ↗</a>
   </dialog>
   <footer class="footer"><div class="container footer-inner"><span class="footer-mark">SK.</span><span>© <span id="year">2026</span> SUNDARA KRISHNAN S</span><span>BUILT FOR THE NEXT CONVERSATION.</span><a href="#top">BACK TO TOP ↑</a></div></footer>
